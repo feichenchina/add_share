@@ -1,0 +1,16 @@
+骆昊github上的python学习100天
+https://github.com/jackfrued/Python-100-Days
+
+
+知乎上python问题108道
+https://www.zhihu.com/question/54513391/answer/779646691
+
+
+常逛网站分享
+https://www.zhihu.com/question/27145069/answer/672914885
+
+图像生成，有空研究
+gridstudio
+
+生成API的一个基于python的WEB框架
+fastapi
