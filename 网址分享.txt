@@ -17,3 +17,6 @@ fastapi
 
 三次握手，四次挥手
 https://blog.csdn.net/qq_38950316/article/details/81087809
+
+TED中文语言网
+https://www.ted.com/talks?language=zh-cn
