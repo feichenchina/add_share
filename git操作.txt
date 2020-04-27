@@ -1,0 +1,63 @@
+git分支管理工具
+SourceTree
+
+初始化git本地仓库
+git init
+
+将文件添加到暂存区  也就是当前目录
+git add "文件名"
+
+携带提交信息，将缓存区内容添加到本地仓库
+git commit -m "提交信息"
+
+将本地仓库版本提交到远程服务器
+git push
+git push <远程主机名> <本地分支名> <远程分支名> ，例如 git push origin master：refs/for/master ，即是将本地的master分支推送到远程主机origin上的对应master分支， origin 是远程主机名。第一个master是本地分支名，第二个master是远程分支名。
+
+创建分支
+git branch "分支名"
+
+切换分支
+git checkout "分支名"
+
+创建并切换分支
+git checkout -b "分支名"
+
+查看仓库状态，可以在git add之后使用
+git status
+
+查看所有分支
+git branch -a
+
+删除本地分支
+git branch -d "本地分支名"
+
+删除远程分支
+git push origin --delete "远程分支名"   例如：“master”
+
+git merge
+举例子：
+若A分支要和B分支合并   步骤
+1，A分支提交到远程
+2，切换到B分支
+3，在B分支上执行合并    git merge A
+4，B分支提交到远程
+
+若B分支想要和A分支合并   步骤
+1，B分支提交到远程
+2，切换到A分支
+3，在A分支上执行合并  git merge B
+4，A分支提交到远程
+
+将暂存区的内容退回到工作区
+git reset
+
+回退到这个版本
+git reset dsfsgdghfghgfh
+
+关联远程库
+git remote add 远程仓库名
+若出现以下错误，
+远程仓库名 already exists 
+可执行
+git remote rm 远程仓库名
